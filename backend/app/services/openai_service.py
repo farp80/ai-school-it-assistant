@@ -8,14 +8,14 @@ client = OpenAI(
     api_key=os.getenv("OPENAI_API_KEY")
 )
 
-
 def test_openai():
+
     response = client.chat.completions.create(
         model="gpt-4.1-mini",
         messages=[
             {
-                "role": "user",
-                "content": "Say hello"
+                "role":"user",
+                "content":"Say hello"
             }
         ]
     )
