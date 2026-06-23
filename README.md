@@ -1,1 +1,1 @@
-# ai-school-it-assistant
+# AI School IT Assistant
