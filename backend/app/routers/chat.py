@@ -7,7 +7,6 @@ router = APIRouter()
 
 @router.post("/chat")
 def chat(request: ChatRequest):
-
     answer = ask_ai(
         request.question
     )
