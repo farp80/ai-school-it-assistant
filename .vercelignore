@@ -1,0 +1,4 @@
+backend/
+requirements.txt
+.venv/
+venv/
